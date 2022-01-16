@@ -1,0 +1,34 @@
+html, body{
+	height: 100%;
+	overflow: hidden;
+}
+
+table{
+	width: 100%;
+	height: 100%;
+}
+
+td{
+	text-align: center;
+	vertical-align: top;
+	width: 50%;
+}
+
+textarea{
+	width: 50%;
+	height: 200px;
+	resize: none;
+}
+
+#edit-box{
+	height: 50%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	border-bottom: 1px solid black;
+}
+
+#editDiv{
+	display: none;
+}

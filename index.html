@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<title>Blog</title>
+</head>
+<body>
+	<table rules = "cols">
+		<tr>
+			<td>
+				<h1>Blog</h1>	
+				<form action="javascript:void(0);" method="POST" onsubmit="add()">
+					<textarea placeholder="Type in something..." id= "textToAdd"></textarea>
+					<br>
+					<input type="submit" value="Post">
+				</form>
+			</td>
+			<td>
+				<h1>Posts</h1>
+				<div id="edit-box">
+				</div>
+				<div id="editDiv">
+					<form action="javascript:void(0);" method="POST" id="newText">
+						<textarea id="nextTextToAdd">
+							
+						</textarea>
+						<input type="submit" value="Save">
+					</form>
+				</div>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
